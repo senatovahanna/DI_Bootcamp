@@ -1,0 +1,47 @@
+/*section h2 {
+	color: blue;
+	font-size: 46px;
+    background-color: darkred;
+}
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: violet;
+}
+*/
+body {
+	background: lightgrey;
+}
+div {
+	display: inline;
+}
+#blue {
+	height: 150px;
+    width: 50px;
+	background: blue;
+	color: blue;
+	display: inline-block;
+}
+#white {
+	height: 150px;
+    width: 50px;
+	background: white;
+	color: white;
+	display: inline-block;
+	margin: 0px;
+}
+#red {
+	height: 150px;
+    width: 50px;
+	background: red;
+	color: red;
+	display: inline-block;
+	margin: 0px;
+}
+.main {
+	margin: 20px;
+	padding: 100px;
+	border: 100px;
+}

@@ -1,0 +1,192 @@
+
+	body {
+		background: white;
+	}
+	.main {
+		background: white;
+		width: 200px;
+		height: 450px;
+		left: 25px;
+		padding: 50px;
+		text-align: center;
+		padding-top: 100px;
+		padding-left: 100px;
+		margin-top: 50px;
+
+	}
+	div h1 {
+		text-shadow: 1px 1px 2px dimgrey;
+
+	}
+	img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+	}
+	.zoom {
+		  padding: 5px;
+          background-color: rgb(84, 8, 84);
+
+		  transition: transform .3s; /* Animation */
+		  width: 150px;
+		  height: 150px;
+		  margin: 0 auto;
+
+	}
+	.zoom:hover {
+		  transform: scale(1.2); 
+
+	}
+	br {
+		    content: ".";
+		    border-bottom: 2px dashed black;
+		    display: inline-block;
+    		width: 100%;
+	}
+	.violet {
+		background: rgb(84, 8, 84);
+		width: 70%;
+		height: 100%;
+		position: absolute;
+		z-index: -1;
+		top: 0px;
+  		bottom: 0px;
+  		left: 200px;
+	}
+	.info {
+		padding-left: 200px;
+		padding-top: 50px;
+		width: 80%;
+	}
+	div h2 {
+		color: white;
+		text-shadow: 2px 2px 3px black;
+	}
+	nav p {
+		font-style: italic;
+		color: whitesmoke;
+		text-shadow: 1px 1px 2px black;
+	}
+	table {
+		text-align: left;
+		color: white;
+	}
+	.placeColumn {
+		text-align: left;
+		font-weight: 700;
+		text-shadow: 1px 1px 2px black;
+		color: antiquewhite;
+	}
+	th {
+		font-style: bold;
+		color: rgb(166, 111, 166);
+		text-shadow: 2px 2px 2px black;
+
+	}
+	td {
+		text-shadow: 1px 1px 2px black;
+		color: antiquewhite;
+	}
+	#experience {
+		text-align: left;
+		width: 100%;
+	}
+	ul {
+		display: inline-block;
+		color: rgb(166, 111, 166);
+		text-shadow: 2px 2px 2px black;
+	}
+	li {
+		color: antiquewhite;
+		text-align: left;
+	}
+	footer {
+		height: 15px;
+		background: rgb(84, 8, 84);
+		position: relative;
+		width: 100%;
+		color: whitesmoke;
+		z-index: ;
+		font-style: initial;
+		text-align: center;
+		font-size: 10px;
+	}
+	.aside {
+		position: absolute;
+		background: white;
+		right: 0px;
+		top: 0px;
+		bottom: 0px;
+		width: 17%;
+		height: 100%px;
+		padding-top: 50px;
+		color: black;
+		text-align: center;
+	}
+	.aside h2, h3 {
+		
+		text-shadow: 1px 1px 2px rgb(166, 111, 166);
+		color: black;
+
+	}
+
+    button {
+		  border-radius: 50%;
+		  color: white;
+		  padding: 20px 28px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: block;
+		  font-size: 16px;
+		  transition-duration: 1s;
+		  cursor: pointer;
+}
+	#github {
+		 margin: 20px auto;
+  		  background-color: white; 
+		  color: black; 
+		  border: 2px solid rgb(55, 0, 55);
+		  animation-name: github;
+		  animation-duration: 4s;
+		  
+
+	}
+	@keyframes github {
+		0% {background-color: white;}
+		25% {background-color: yellow;}	
+		50% {background-color: rgb(166, 111, 166);}
+		100% {background-color: rgba(55, 0, 55, 0.5);}
+		
+	}
+	
+	#github:hover {
+		background-color: rgb(166, 111, 166);
+		color: white;
+	}
+	q {
+		margin: 80px auto;
+		font-style: italic;
+	}
+	#email {
+		  margin: 40px auto;
+  		  background-color: white; 
+		  color: black; 
+		  border: 2px solid rgb(55, 0, 55);
+	}
+
+	#email:hover {
+		background-color: rgb(166, 111, 166);
+		color: white;
+	}
+	#download {
+		  margin: 80px auto;
+  		  background-color: rgb(55, 0, 55); 
+		  color: white; 
+		  border: 2px solid rgb(55, 0, 55);
+	}
+
+	#download:hover {
+		background-color: rgb(166, 111, 166);
+		color: black;
+	}
+

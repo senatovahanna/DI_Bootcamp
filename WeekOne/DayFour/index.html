@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<title>CV</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
 <body>
 <div class="main">
@@ -18,7 +20,7 @@
 <<div class="violet">
 <div class="info">
 	<nav class="profile">
-		<h2>Profile</h2>
+		<h2><u>Profile</u></h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -27,91 +29,103 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</nav>
 	<nav class="education">
-		<h2>Education</h2>
+		<h2><u>Education</u></h2>
 		<table>
-			
+			<tr>
+    			<th>Name of educational place:</th>
+    			<th>Field:</th>
+    			<th>Years of study:</th>
+  			</tr>
+ 			 <tr>
+    		<td style="width: 60%" class="placeColumn">National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”</td> 
+    			<td>Economic cybernethics (Bachelor degree)</td> 
+			    <td>2014-2018</td> 
+			</tr>
+  			<tr>
+			    <td class="placeColumn">High school of Communication</td>
+			    <td>course "HR and Command"</td>
+			    <td>2015</td>
+		    </tr>
+
+		    <tr>
+			    <td class="placeColumn">L.A.B.A</td>
+			    <td>online-course "Business Analysis"</td>
+			    <td>2018</td>
+		    </tr>
+
+		    <tr>
+			    <td class="placeColumn">Developers.Institute</td>
+			    <td>Full Stack WEB development Python</td>
+			    <td>Oct 2021- Feb 2022</td>
+		    </tr>
 		</table>
+
 	</nav>
 	<nav class="experience">
-		<h2>Experience</h2>
-		<table>
-			
+		<h2><u>Experience</u></h2>
+		<table id="experience">
+			<tr>
+    			<th>Work place:</th>
+    			<th>Position:</th>
+    			<th>Years:</th>
+  			</tr>
+			<tr>
+			    <td style="width: 60%;" class="placeColumn">HeadHunter:UA (now GRC.ua)</td>
+			    <td>advertise product manager</td>
+			    <td>2015-2018</td>
+		    </tr>
+
+		    <tr>
+			    <td class="placeColumn">Sababa Agency Israel</td>
+			    <td>entepreuner</td>
+			    <td>2019-2021</td>
+		    </tr>
 		</table>
 	</nav>
 	<nav class="skills">
-		<h2>Skills</h2>
-		<img src="">
-		<h3></h3>
-		<img src="">
-		<h3></h3>
-		<img src="">
-		<h3></h3>
+		<h2><u>Skills</u></h2>
+		<ul> Soft-skills:
+			<li>Creativity</li>
+			<li>Collaboration</li>
+			<li>Time-management</li>
+			<li>Problem solving</li>
+			<li>Focus</li>
+
+		</ul>
+		<ul> Hard-skills:
+			<li>Web development</li>
+			<li>Version Control/Git</li>
+			<li>Business Analysis</li>
+			<li>OOP</li>
+			<li>Programming languages (such as C, C++, Python)</li>
+
+		</ul>
+		<ul> Enviroment & tools:
+			<li>Jira</li>
+			<li>Chrome Developer tools</li>
+			<li>VS Code, Sublime text, PyCharm</li>
+			<li>Bootstrap</li>
+			<li>Angular</li>
+		</ul>
 	</nav>
 </div>
+<footer>
+	<h4>Copywrite 2021 by Hanna Senatov</h4>
+</footer>
 </div>
-<style type="text/css">
-	body {
-		background: white;
-	}
-	.main {
-		background: white;
-		width: 200px;
-		height: 450px;
-		left: 25px;
-		padding: 50px;
-		text-align: center;
-		padding-top: 100px;
-		padding-left: 100px;
-		margin-top: 50px;
+<aside class="aside">
+    <h2>You can find my projects:</h2>
+    <button type="button" id="github">HERE!</button>
+    <h3>Connect with me:</h3>
+	<a href="https://www.linkedin.com/in/hana-senatova-herzman-43799515b/"><img src="https://image.similarpng.com/very-thumbnail/2021/01/Illustration-of-Linkedin-icon-on-transparent-background-PNG.png" alt="LI"></a>
+	<a href="https://www.facebook.com/hanna.senatova.herzman/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_(2019).png/600px-Facebook_Logo_(2019).png" alt="FB"></a>
+	<a href="https://www.instagram.com/"><img src="https://image.similarpng.com/very-thumbnail/2020/11/Instagram-icon-on-transparent-background-PNG.png" alt="IG"></a>
+	<h3>...or:</h3>
+	<button type="button" id="email">Email me</button>
+	<q>The future belongs to those who believe in the beauty of their dreams.</q> 
+	<button type="button" id="download">Download CV</button>
+</aside>
 
-	}
-	div h1 {
-		text-shadow: 2px 2px 3px violet;
-
-	}
-	img {
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-	}
-	.zoom {
-		  
-		  transition: transform .3s; /* Animation */
-		  width: 150px;
-		  height: 150px;
-		  margin: 0 auto;
-}
-	.zoom:hover {
-		  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-	br {
-		    content: ".";
-		    border-bottom: 2px dashed black;
-		    display: inline-block;
-    		width: 100%;
-	}
-	.violet {
-		background: rgb(84, 8, 84);
-		width: 1400px;
-		position: absolute;
-		z-index: -1;
-		top: 0;
-  		right: 0;
-  		bottom: 0;
-  		left: 200px;
-	}
-	.info {
-		padding-left: 200px;
-		padding-top: 50px;
-		width: 600px;
-	}
-	div h2 {
-		color: white;
-		text-shadow: 2px 2px 3px black;
-	}
-
-
-</style>
 </div>
 </body>
 </html>

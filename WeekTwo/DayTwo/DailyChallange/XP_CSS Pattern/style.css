@@ -8,15 +8,21 @@ nav {
 }
 
 .leftnav {
+	height: 100%;
 	display: flex;
 	justify-content: flex-start;
-	direction: column;
+	flex-direction: column;
 }
 .centernav {
+	height: 100%;
+	flex-direction: row;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 .rightnav {
+	height: 100%;
 	display: flex;
 	justify-content: flex-end;
+	flex-direction: column;
+
 }

@@ -1,0 +1,10 @@
+var newDog = "Chihuahua";
+	console.log(newDog.length);
+	console.log(newDog.toUpperCase());
+	console.log(newDog.toLowerCase());
+
+	if (newDog === "Chihuahua") {
+	  console.log("I love Chihuahas, it's my favorite dog breed!");
+	} else {
+	  console.log("I don't care, I prefer cats.");
+}

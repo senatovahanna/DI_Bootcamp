@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    /* height: 100vh; */
+    font-family: 'lato';
+    background-color: black;
+    cursor: none;
+}
+
+.advice {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+.phrase {
+    color: white;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40vh;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .35);
+}
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: 1rem;
+    color: white;
+    font-family: 'lato';
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    color: white;
+  }
+
+  .button:hover {
+    opacity: 0.5;
+  }
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.nav-links, h2 {
+    flex: 1;
+}
+.nav-links, li {
+    padding: 1rem;
+}
+.cursor {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: -1;
+
+}
+
+
+#bg {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.link-grow {
+    transform: scale(2);
+    background: white;
+}
+.hovered-link {
+    color: black;
+}
+main {
+    margin: 0;
+    position: absolute;
+    z-index: -9;
+}
+.idealStudent {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.32);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:35vh;
+    z-index: -10;
+}
+.text-red {
+    color:blue;
+  }
+.process {
+    margin-top: 45vh;
+    background: white;
+    color: black;
+}
+.bg-red {
+    background: black;
+}
